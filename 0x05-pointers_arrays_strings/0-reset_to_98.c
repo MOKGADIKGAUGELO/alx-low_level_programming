@@ -1,11 +1,14 @@
-#include "main.h"
-// Author By Eng Ismail
-// URL = https://github.com/macaanto14
+#include "holberton.h"
+
 /**
- 
- * @n: An integer input pointer
+ * reset_to_98 - updates the value it points to to 98.
+ * @n: Pointer to input int
+ *
+ * Return: void
  */
+
 void reset_to_98(int *n)
 {
 	*n = 98;
 }
+
